@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.heloma.armory",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "microservice",
+    "baseName": "Armory",
+    "packageName": "com.heloma.armory",
+    "packageFolder": "com/heloma/armory",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "consul",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OWNmNzAwNzBmNzU4YTZiNTg1NTMzMzc3YTkxNjllMTAwMmVlMzI3MGI3ZTg4MjQ3MmI2MTcwZDdjMTA4NjkwOWRmYTY1NGFkMjU3NjMyMjRlZTVkMWJhYTQ4OTI3NzkxMDY3M2FiN2U4NjAyMGE1Y2U5NzYyMjI2ZjNkODFjOWY=",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "fa"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
