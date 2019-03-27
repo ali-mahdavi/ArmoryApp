@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.heloma.armory",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "gateway",
+    "baseName": "armory",
+    "packageName": "com.heloma.armory",
+    "packageFolder": "com/heloma/armory",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MmI3YjZkYzI0NWRkMTAzOGEyMTQzNDY1Y2Y3YjRhNDdkYTEzNzIxNTRiZmJlZjhmYTViOGNiMTQyZDFmYTc5ZTJkNzE3NWFkOThmODIxZjQ2NmU2NWFiZjEwMWI3YzQyZWRmODFjMGY0ZjU2ODUzMTZkNTFkOWI2M2VlNGQyNWY=",
+    "clientFramework": "react",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": ["gatling", "cucumber", "protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "fa"]
+  }
+}
