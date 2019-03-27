@@ -13,15 +13,21 @@
 # http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
 # ===================================================================
 
+eureka:
+    client:
+        enabled: false
+    instance:
+        appname: armory
+        instanceId: armory:${spring.application.instance-id:${random.value}}
 
 spring:
     application:
-        name: Armory
+        name: armory
     cache:
         type: simple
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:h2:mem:Armory;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+        url: jdbc:h2:mem:armory;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
         name:
         username:
         password:
@@ -84,7 +90,7 @@ jhipster:
         authentication:
             jwt:
                 # This token must be encoded using Base64 (you can type `echo 'secret-key'|base64` on your command line)
-                base64-secret: OWNmNzAwNzBmNzU4YTZiNTg1NTMzMzc3YTkxNjllMTAwMmVlMzI3MGI3ZTg4MjQ3MmI2MTcwZDdjMTA4NjkwOWRmYTY1NGFkMjU3NjMyMjRlZTVkMWJhYTQ4OTI3NzkxMDY3M2FiN2U4NjAyMGE1Y2U5NzYyMjI2ZjNkODFjOWY=
+                base64-secret: NmI5MTMzMzQzNDE3YzJlMWQ0YTg3ZThjMTExN2YyN2Y0MGQ4M2RjZTEzMTgwNzQ4ZDA0YTkyM2NhOWM1YzI5ZjkwMjBkM2UyN2QxZjNlODc0N2M5MWE1NWJiMGYyOWEwOTc0Nzk2NDc0YzM5YjU3Njk1YTA0MjEzOWUwMTQwN2M=
                 # Token is valid 24 hours
                 token-validity-in-seconds: 86400
     metrics:

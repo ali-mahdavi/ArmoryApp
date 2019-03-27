@@ -6,7 +6,7 @@
     },
     "jhipsterVersion": "5.8.2",
     "applicationType": "microservice",
-    "baseName": "Armory",
+    "baseName": "armory",
     "packageName": "com.heloma.armory",
     "packageFolder": "com/heloma/armory",
     "serverPort": "8081",
@@ -19,10 +19,10 @@
     "prodDatabaseType": "mysql",
     "searchEngine": false,
     "messageBroker": false,
-    "serviceDiscoveryType": "consul",
-    "buildTool": "gradle",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
     "enableSwaggerCodegen": false,
-    "jwtSecretKey": "OWNmNzAwNzBmNzU4YTZiNTg1NTMzMzc3YTkxNjllMTAwMmVlMzI3MGI3ZTg4MjQ3MmI2MTcwZDdjMTA4NjkwOWRmYTY1NGFkMjU3NjMyMjRlZTVkMWJhYTQ4OTI3NzkxMDY3M2FiN2U4NjAyMGE1Y2U5NzYyMjI2ZjNkODFjOWY=",
+    "jwtSecretKey": "NmI5MTMzMzQzNDE3YzJlMWQ0YTg3ZThjMTExN2YyN2Y0MGQ4M2RjZTEzMTgwNzQ4ZDA0YTkyM2NhOWM1YzI5ZjkwMjBkM2UyN2QxZjNlODc0N2M5MWE1NWJiMGYyOWEwOTc0Nzk2NDc0YzM5YjU3Njk1YTA0MjEzOWUwMTQwN2M=",
     "testFrameworks": [
       "gatling",
       "cucumber"
